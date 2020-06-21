@@ -11,8 +11,17 @@ a.navbar-brand {
   font-size: 2.5rem;
   margin-left: 15px;
 }
+/* a.nav-link {
+  color: #red;
+} */
 #navbarTogglerDemo01 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
+}
+ul.navbar-nav {
+  margin-right: 15px;
+}
+li.nav-item {
+  margin-left: 10px;
 }
 
 /**************** Content Section *****************/
@@ -24,44 +33,114 @@ h3.header-1 {
   font-size: 2.25rem;
   font-family: 'Dosis', sans-serif;
   color: #112d4e;
+  text-align: center;
+}
+h3.header-plots{
+  font-size: 2rem;
+  font-family: 'Dosis', sans-serif;
+  color: #112d4e;
+  text-align: center;
+}
+h3.header-data {
+  padding-left: 5%;
+  margin-top: 8px;
+  text-align: center;
 }
 .box-left {
   background-color: white;
   border: 1px solid lightgrey;
   padding: 5%;
+  margin: 20px;
 }
 .box-right {
   background-color: white;
   border: 1px solid lightgrey;
   padding: 5%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 15%;
+  margin-left: 20px;
+}
+.box-left-plots {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 5%;
+  margin-left: 30px;
+  margin-top:20px;
+  margin-bottom: 5%;
+  margin-right: 15px;
+}
+.box-right-plots {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 5%;
+  margin-top:20px;
+  margin-bottom: 20%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 img.summary-img {
-  width: 60%;
+  width: 65%;
   float: left;
   margin-right: 10px;
 }
 img.side-img {
   width: 100%;
 }
+img.plots-img {
+  width: 100%;
+  margin: 0 auto;
+}
 p.p-desc-1 {
   text-align:justify;
   color: #112d4e;
+  text-indent: 30px;
 }
 p.fig-desc {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: 'Dosis', sans-serif;
   color: #112d4e;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.figure-caption {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.75;
+  font-style: italic;
+}
+
+
+/********** Table Formatting ************/
+.content-section-data {
+  background-color: #f5f5f5;
+}
+.dataframe {
+  margin: 15px;
+  text-align: center;
+  background-color: #edf4f2;
+}
+th {
+  font-size: 1.25rem;
+  font-family: 'Dosis', sans-serif;
+  color: #17706e;
+}
+td {
+  font-size: 1rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #888888;
 }
 
 /**************** Bottom Section ******************/
 .bottom-section {
+  bottom: 0;
   background-color: #112d4e;
-  height: 50px;
+  height: 60px;
 }
 #footer-text {
   color: #f9f7f7;
   font-size: 0.8rem;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
 }
