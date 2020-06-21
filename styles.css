@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #f9f7f7;
+}
+/*************** Navbar Section *************/
+.navbar {
+  position: relative;
+}
+a.navbar-brand {
+  font-family: 'Patua One', cursive;
+  font-size: 2.5rem;
+  margin-left: 15px;
+}
+#navbarTogglerDemo01 {
+  font-size: 1.25rem;
+}
+
+/**************** Content Section *****************/
+.content-section {
+  background-color: #dbe2ef;
+  margin: 0 auto;
+}
+h3.header-1 {
+  font-size: 2.25rem;
+  font-family: 'Dosis', sans-serif;
+  color: #112d4e;
+}
+.box-left {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 5%;
+}
+.box-right {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 5%;
+}
+img.summary-img {
+  width: 60%;
+  float: left;
+  margin-right: 10px;
+}
+img.side-img {
+  width: 100%;
+}
+p.p-desc-1 {
+  text-align:justify;
+  color: #112d4e;
+}
+p.fig-desc {
+  font-size: 1.5rem;
+  font-family: 'Dosis', sans-serif;
+  color: #112d4e;
+  text-align: center;
+}
+
+/**************** Bottom Section ******************/
+.bottom-section {
+  background-color: #112d4e;
+  height: 50px;
+}
+#footer-text {
+  color: #f9f7f7;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 15px;
+}
